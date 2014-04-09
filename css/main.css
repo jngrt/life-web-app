@@ -1,0 +1,57 @@
+body {
+  padding: 0 20px 20px;
+
+}
+.container {
+  max-width: 320px;
+}
+h1 small {
+  font-size: 18px;
+}
+
+.time-block .col-xs-4, .earn-block .col-xs-4 {
+  padding-left:0;
+  padding-right:0;
+}
+.time-display {
+  padding-top:10px;
+  background-color: #EBEDEF;
+  border-radius: 10px;
+  text-align:center;
+  margin-left:2px;
+  margin-right:2px;
+  font-size: 48px;
+  line-height:1;
+}
+.earn-display {
+  font-size: 18px;
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color: #EBEDEF;
+  border-radius: 10px;
+  text-align:center;
+  margin-left:2px;
+  margin-right:2px;
+  line-height:1;
+}
+.earn-negative .earn-display {
+  background-color:#E74C3C;
+}
+.earn-positive .earn-display {
+  background-color:#2ECC71;
+}
+
+.time-display .small {
+  margin-top: -10px;
+  font-size: 20px;
+  font-color: #444;
+}
+
+
+h1 {
+  //text-transform: uppercase;
+  font-size: 18px;
+  //font-weight:normal;
+  margin-top:20px;
+  margin-bottom:5px;
+}
